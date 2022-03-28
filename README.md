@@ -6,16 +6,6 @@ This module has only one function, which accepts two parameters: `str` (text to 
 
 **Some modifiers may have multiple conversions depending on the text.**
 
-## Type of convertions
-|Type|Description|
-|---|---|
-| Cheemsify | Cheemsify the text. |
-| RandomizeWords | Randomize the position of words in a sentence. |
-| TranslatableVillagersify | Villagersify the given text (translatable). |
-| TranslateVillagersify | Translate the villagersify text (this only with the one that is translatable). |
-| Uwusify | Uwusify the given text|
-| Villagersify | Villagersify the given text (simpler but not translatable) |
-
 ## Example of use
 ```js
 const ConvertingStrings = require('converting-strings');
@@ -23,6 +13,17 @@ const ConvertingStrings = require('converting-strings');
 const convertedString = ConvertingStrings('Hello, world!', 'uwusify');
 console.log(convertedString); // Output: Hewwo, wowwd! (/^▽^)/
 ```
+
+## Type of convertions
+|Type|Description|
+|---|---|
+| Cheemsify | Cheemsify the given text. |
+| Isisify | Replace all vowels with the letter i. |
+| RandomizeWords | Randomize the position of words in the given text. |
+| TranslatableVillagersify | Villagersify the given text (translatable). |
+| TranslateVillagersify | Translate the villagersify text (this only with the one that is translatable). |
+| Uwufy | Uwusify the given text |
+| Villagersify | Villagersify the given text (simpler but not translatable) |
 
 # Credits
 

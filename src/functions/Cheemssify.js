@@ -5,7 +5,6 @@ const func = (string) => {
         
         if(match === nextLetter || nextLetter === 'm' || nextLetter === 'n') return match;
         return match + 'm';
-        
     });
     return newString;
 };
