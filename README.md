@@ -1,10 +1,12 @@
 # Converting Strings
 Converting Strings is a project which was made to create unusable conversions of various strings.
 
-# Installation
-`npm install converting-strings`
+# Usage
+This module has only one function, which accepts two parameters: `str` (text to modify) and `type` (type of modification).
 
-# Type of convertions
+**Some modifiers may have multiple conversions depending on the text.**
+
+## Type of convertions
 |Type|Description|
 |---|---|
 | Cheemsify | Cheemsify the text. |
@@ -13,6 +15,14 @@ Converting Strings is a project which was made to create unusable conversions of
 | TranslateVillagersify | Translate the villagersify text (this only with the one that is translatable). |
 | Uwusify | Uwusify the given text|
 | Villagersify | Villagersify the given text (simpler but not translatable) |
+
+## Example of use
+```js
+const ConvertingStrings = require('converting-strings');
+
+const convertedString = ConvertingStrings('Hello, world!', 'uwusify');
+console.log(convertedString); // Output: Hewwo, wowwd! (/^▽^)/
+```
 
 # Credits
 
