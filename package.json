@@ -1,7 +1,7 @@
 {
   "name": "converting-strings",
   "version": "1.0.0",
-  "description": "Converting Strings is a project which was made to create unusable conversions of various strings",
+  "description": "Converting Strings is a project which was made to create various conversions of strings",
   "main": "index.js",
   "author": "ThisIsAName",
   "license": "MIT",
