@@ -4,13 +4,13 @@
   "description": "Converting Strings is a project which was made to create unusable conversions of various strings",
   "main": "index.js",
   "author": "ThisIsAName",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NejireSupremacy/Converting-Strings.git"
+    "url": "git+https://github.com/NejireSupremacy/converting-strings"
   },
   "bugs": {
-    "url": "https://github.com/NejireSupremacy/Converting-Strings/issues"
+    "url": "https://github.com/NejireSupremacy/converting-strings/issues"
   },
-  "homepage": "https://github.com/NejireSupremacy/Converting-Strings#readme"
+  "homepage": "https://github.com/NejireSupremacy/converting-strings#readme"
 }
