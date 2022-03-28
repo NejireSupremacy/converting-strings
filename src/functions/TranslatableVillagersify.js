@@ -33,7 +33,7 @@ const func = (string) => {
         'z': 'HmmHmHmmHm',
     };
 
-    const newArrayString = new Array();
+    const newArrayString = [];
     for(let i = 0; i < string.length; i++) {
         const regex = new RegExp(`[${string[i]}]`, 'gi');
 

@@ -8,7 +8,7 @@ const func = (string) => {
 
     const arrayString = replacedString.split(' ');
 
-    const newString = new Array();
+    const newString = [];
     for(const word of arrayString) {
         const newWord = 'H' + word.substring(1);
         newString.push(newWord);

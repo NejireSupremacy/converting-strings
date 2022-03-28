@@ -18,11 +18,12 @@ console.log(convertedString); // Output: Hewwo, wowwd! (/^▽^)/
 |Type|Description|
 |---|---|
 | Cheemsify | Cheemsify the given text. |
+| InvertWords | Reverse the words of the given text. |
 | Isisify | Replace all vowels with the letter i. |
 | RandomizeWords | Randomize the position of words in the given text. |
 | TranslatableVillagersify | Villagersify the given text (translatable). |
 | TranslateVillagersify | Translate the villagersify text (this only with the one that is translatable). |
-| Uwufy | Uwusify the given text |
+| Uwufy | Uwusify the given text. |
 | Villagersify | Villagersify the given text (simpler but not translatable) |
 
 # Credits

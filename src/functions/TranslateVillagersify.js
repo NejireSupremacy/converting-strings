@@ -31,12 +31,12 @@ const func = (string) => {
     const wordsArray = string.split(' ');
 
     const regex = new RegExp('.{1,10}', 'g');
-    const wordArray = new Array();
+    const wordArray = [];
     for(let i = 0; i < wordsArray.length; i++) {
         wordArray.push(wordsArray[i]);
     };
 
-    const newWordArray = new Array();
+    const newWordArray = [];
     for(let i = 0; i < wordArray.length; i++) {
         const letters = wordArray[i].match(regex);
 

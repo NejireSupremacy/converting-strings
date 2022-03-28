@@ -23,7 +23,7 @@ const func = (string) => {
         return newWord;
     };
 
-    const newString = new Array();
+    const newString = [];
     for(const word of arrayString) {
         newString.push(uwufyWords(word));
     };
