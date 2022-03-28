@@ -1,0 +1,19 @@
+{
+  "name": "converting-strings",
+  "version": "1.0.0",
+  "description": "Converting Strings is a project which was made to create unusable conversions of various strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ThisIsAName",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NejireSupremacy/Converting-Strings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NejireSupremacy/Converting-Strings/issues"
+  },
+  "homepage": "https://github.com/NejireSupremacy/Converting-Strings#readme"
+}
