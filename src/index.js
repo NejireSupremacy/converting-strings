@@ -5,7 +5,12 @@ const convertString = (str, type) => {
     if(typeof(str) !== 'string') throw new Error(`The text you are defining is not a string.`);
     if(typeof(type) !== 'string') throw new Error(`The type of conversion you are defining is not a string.`);
 
-    const func = require(`./functions/${type}`);
+    let func;
+    try {
+        func = require(`./functions/${type}`);
+    } catch(err) {
+        throw new Error(`The type of conversion you are defining is not valid.`) 
+    };
     return func(str);
 };
 

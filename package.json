@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Converting Strings is a project which was made to create unusable conversions of various strings",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "ThisIsAName",
   "license": "ISC",
   "repository": {

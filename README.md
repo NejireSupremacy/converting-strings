@@ -1,4 +1,4 @@
-# Overwatch label
+# Converting Strings
 Converting Strings is a project which was made to create unusable conversions of various strings.
 
 # Installation
@@ -14,7 +14,7 @@ Converting Strings is a project which was made to create unusable conversions of
 | Uwusify | Uwusify the given text|
 | Villagersify | Villagersify the given text (simpler but not translatable) |
 
-# 🍄 Credits
+# Credits
 
 - [ThisIsAName](https://github.com/NejireSupremacy) (Main developer)
 - [Google](https://www.google.com/) (Professional troubleshooter)
