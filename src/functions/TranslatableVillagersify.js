@@ -37,7 +37,7 @@ const func = (string) => {
     for(let i = 0; i < string.length; i++) {
         const regex = new RegExp(`[${string[i]}]`, 'gi');
 
-        if(Object.keys(letters).some((e) => regex.test(e))) {
+        if(Object.keys(letters).some((e) => e.match(regex))) {
             newArrayString.push(letters[string[i].toLowerCase()]);
         } else {
             newArrayString.push(string[i]);

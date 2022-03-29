@@ -18,6 +18,7 @@ console.log(convertedString); // Output: Hewwo, wowwd! (/^▽^)/
 |Type|Description|
 |---|---|
 | Cheemsify | Cheemsify the given text. |
+| Emojify | Turn given text into emojis (can be quite buggy) |
 | InvertWords | Reverse the words of the given text. |
 | Isisify | Replace all vowels with the letter i. |
 | RandomizeWords | Randomize the position of words in the given text. |
