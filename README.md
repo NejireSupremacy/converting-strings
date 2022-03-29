@@ -10,7 +10,7 @@ This module has only one function, which accepts two parameters: `str` (text to 
 ```js
 const ConvertingStrings = require('converting-strings');
 
-const convertedString = ConvertingStrings('Hello, world!', 'uwusify');
+const convertedString = ConvertingStrings('Hello, world!', 'uwufy');
 console.log(convertedString); // Output: Hewwo, wowwd! (/^▽^)/
 ```
 
