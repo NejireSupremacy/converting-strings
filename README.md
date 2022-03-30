@@ -1,8 +1,8 @@
 # Converting Strings
-Converting Strings is a project which was made to create unusable conversions of various strings.
+Converting Strings is a project that was made to facilitate various string conversions.
 
 # Usage
-This module has only one function, which accepts two parameters: `str` (text to modify) and `type` (type of modification).
+This module has only one function available, which accepts two parameters: `str` (text to be modified) and `type` (type of modification).
 
 **Some modifiers may have multiple conversions depending on the text.**
 
@@ -18,15 +18,15 @@ console.log(convertedString); // Output: Hewwo, wowwd! (/^▽^)/
 |Type|Description|
 |---|---|
 | Cheemsify | Cheemsify the given text. |
-| Emojify | Turn given text into emojis (can be quite buggy). |
-| InvertWords | Reverse the words of the given text. |
+| Emojify | Converts a given text into emojis (can be quite buggy). |
+| InvertWords | Invert the words of the given text. |
 | Isisify | Replace all vowels with the letter i. |
 | RandomizeLetters | Randomize the position of the letters of each word in the given text. |
 | RandomizeWords | Randomize the position of words in the given text. |
-| TranslatableVillagersify | Villagersify the given text (translatable). |
-| TranslateVillagersify | Translate the villagersify text (this only with the one that is translatable). |
-| Uwufy | Uwusify the given text. |
-| Villagersify | Villagersify the given text (simpler but not translatable) |
+| TranslatableVillagerify | Villagerify the given text (translatable). |
+| TranslateVillagerify | Translate the villagerified text. |
+| Uwufy | Uwufy the given text. |
+| Villagerify | Villagerify the given text (simpler but not translatable) |
 
 # Credits
 
